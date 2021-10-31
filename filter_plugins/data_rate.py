@@ -22,7 +22,7 @@ def data_rate_to_hex(allowed_rate_list):
         running_total += 2 ** (bit_table.index(val))
 
     # Convert sum total to hex and return
-    allowed_rates_hex_value = "{0:00(1)x})".format(running_total, 6)
+    allowed_rates_hex_value = "{0:#0{1}x}".format(running_total, 6)
     return allowed_rates_hex_value
 
 
