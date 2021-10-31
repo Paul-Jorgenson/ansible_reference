@@ -1,6 +1,6 @@
 def data_rate_to_hex(allowed_rate_list):
     """
-    Convert a list of allowed data rates to a hex value that can be understood
+    Convert a list of wireless 802.11 allowed data rates to a hex value that can be understood
     by a radio driver
     """
 
